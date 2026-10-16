@@ -1,0 +1,20 @@
+:root { color-scheme: light; font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; color: #0d1117; background: #f7f9fc; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; min-height: 100dvh; padding: 32px 20px; display: flex; flex-direction: column; align-items: center; background: radial-gradient(ellipse at 100% 0%, #6994f42e, transparent 60%), #f7f9fc; }
+header { margin-bottom: 32px; }
+header img { display: block; width: min(280px, 80vw); height: auto; }
+main { flex: 1; display: flex; align-items: center; width: min(100%, 560px); }
+.card { width: 100%; padding: clamp(24px, 6vw, 40px); text-align: center; background: white; border: 1px solid #dce7fb; border-radius: 28px; box-shadow: 0 24px 80px -30px #6994f44d; }
+.gift { width: 56px; height: 56px; display: grid; place-items: center; margin: 0 auto 24px; border-radius: 16px; background: #edf2ff; color: #4c79da; font-size: 32px; }
+h1 { margin: 0; font-size: clamp(28px, 6vw, 38px); line-height: 1.2; letter-spacing: -1.2px; }
+.subtitle { margin: 16px auto 0; max-width: 350px; color: #536175; font-size: 17px; line-height: 1.65; }
+.value { margin: 28px 0 0; color: #4c79da; font-size: 64px; line-height: 1.1; font-weight: 750; letter-spacing: -3px; }
+.label { margin: 8px 0 24px; color: #536175; font-size: 14px; }
+code { display: block; margin: 0 0 24px; padding: 20px 16px; border: 1px solid #d3e0fa; border-radius: 16px; background: #f1f5ff; font: 600 clamp(18px, 4.5vw, 23px)/1.65 ui-monospace, monospace; overflow-wrap: anywhere; white-space: pre-wrap; user-select: all; }
+button { width: 100%; padding: 17px 16px; border: 0; border-radius: 14px; background: #6994f4; box-shadow: 0 4px 0 #4c79da; color: #0d1117; font: inherit; font-weight: 650; font-size: 16px; line-height: 1.4; cursor: pointer; }
+button:hover { background: #7da3f8; }
+button:focus-visible, code:focus-visible { outline: 3px solid #315bb9; outline-offset: 4px; }
+#status { margin: 16px 0 0; min-height: 22px; color: #315bb9; font-size: 14px; line-height: 1.6; }
+.save { margin: 12px 0 0; color: #536175; font-size: 14px; line-height: 1.6; }
+footer { margin-top: 32px; color: #536175; text-align: center; font-size: 12px; line-height: 1.7; }
